@@ -1,6 +1,8 @@
 from math import hypot
 
+
 class Vector:
+
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
@@ -22,3 +24,8 @@ class Vector:
 
     def __mul__(self, scalar):
         return Vector(self.x * scalar, self.y * scalar)
+
+
+name = 100
+test_list = [1, 2, 3]
+test_list.append(10)

@@ -16,5 +16,11 @@
 
 4. The standard interface for an iterator has two methods:
 
-> __next__ : returns the next available item, raising StopIteration when there are no more items.
-> __iter__ : returns self; this allows iterators to be used where an iterable is excepted, for example, in a loop.
+>\__next\__ : returns the next available item, raising StopIteration when there are no more items.
+> \__iter\__ : returns self; this allows iterators to be used where an iterable is excepted, for example, in a loop.
+
+The *with* statement sets up a temporary context and reliable tears it down, underthe control of a context manager object.
+The *else* in for, while only when loop is executed finished, not if the aborted with a break. In *try*.
+
+In the all case, the else clause is also skipped if an exception or a return, break or continue statement causes control to jump out of the main block of the compound statement.
+
